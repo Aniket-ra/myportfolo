@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+
+.sidebar{
+    background-color: rgb(145, 129, 129);
+    width: 434px;
+    font-family: 'Merriweather', serif;
+    height: 100vw
+    
+
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 28px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: rgb(73, 29, 64);
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+background-color: pink;
+height: 70vh;
+width: 68vw;
+margin: 120px auto;
+
+display: flex;
+justify-content: space-around;
+}
+.devPic img{
+    height: 70vh;
+    width: 20vw;
+    
+}
+.moreabout{
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: blueviolet;
+}
+.devInfo{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 70px;
+    font-weight: normal;
+    
+    
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+
+.buttons button{
+padding: 9px 14px;
+border-radius: 19px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 15px;
+margin: 30px 2px 3px 2px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    font-size: small;
+    color: dodgerblue;
+}
+.contactform{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.titleContact{
+    color: white;
+    font-weight: bolder;
+}
+.titleContact h1{
+    font-family: 'Cabin Sketch', cursive;
+    
+}
+.infoContact{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    justify-content: center;
+}
+.infoContact input{
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+.infoContact textarea{
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+.contactform button{
+    margin-top: 1rem;
+    margin-left: 10px;
+    padding: 10px;
+    padding: 9px 14px;
+border-radius: 19px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 15px;
+margin: 30px 2px 3px 2px;
+cursor: pointer;
+
+}
+.Intromain{
+    border-block-style:solid;
+    border-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-left: 7rem;
+    width: 40rem;
+}
+.Introtitle{
+    display: flex;
+}
+.Introcontainer{
+    display: flex;
+    font-family: 'Kurale', serif;
+    font-size: large;
+    color: antiquewhite;
+    padding: 2rem;
+}
+.pContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rem;
+    margin-left: 4rem;
+}
+.card-img-top{
+    width: 90%;
+    height: 80%;
+}
